@@ -24,7 +24,7 @@ This repository contains the code for a Rock-Paper-Scissors game that uses hand 
 
 ## Repository Contents
 
-### Python Code: `rpsduino-python.py`
+### Python Code: `RPSduino_Python.py`
 This script handles gesture recognition and game logic.
 - Detects hand gestures (Rock, Paper, Scissors) using a webcam.
 - Randomly generates a move for the computer.
@@ -47,16 +47,16 @@ This script handles gesture recognition and game logic.
 3. Ensure DroidCam is set up and running.
 4. Run the script:
    ```bash
-   python rpsduino-python.py
+   python RPSduino_Python.py
    ```
 
-### Arduino Code: `rpsduino-arduino.ino`
+### Arduino Code: `RPSduino_Arduino.ino`
 This sketch manages the display of scores and game results on the LCD1602 module.
 - Receives scores and messages from the Python script via serial communication.
 - Displays the current scores and updates the screen in real-time.
 
 #### Uploading the Sketch
-1. Open `rpsduino-arduino.ino` in the Arduino IDE.
+1. Open `RPSduino-Arduino.ino` in the Arduino IDE.
 2. Ensure the correct COM port and board are selected in the IDE settings.
 3. Upload the sketch to the Arduino Uno.
 4. Connect the LCD1602 module to the Arduino as per the wiring defined in the code.
